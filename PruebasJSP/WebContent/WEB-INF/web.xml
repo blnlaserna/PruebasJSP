@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>PruebasJSP</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>expresiones</servlet-name>
+    <servlet-class>expresiones</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>expresiones</servlet-name>
+    <url-pattern>/servletexpresiones</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>color</servlet-name>
+    <servlet-class>color</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>color</servlet-name>
+    <url-pattern>/servletcolor</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>contador</servlet-name>
+    <servlet-class>contador</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>contador</servlet-name>
+    <url-pattern>/servletcontador</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>division</servlet-name>
+    <servlet-class>division</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>division</servlet-name>
+    <url-pattern>/servletdivision</url-pattern>
+  </servlet-mapping>
+</web-app>
